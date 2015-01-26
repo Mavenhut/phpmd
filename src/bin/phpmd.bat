@@ -10,7 +10,7 @@ REM are met:
 REM
 REM   * Redistributions of source code must retain the above copyright
 REM     notice, this list of conditions and the following disclaimer.
-REM 
+REM
 REM   * Redistributions in binary form must reproduce the above copyright
 REM     notice, this list of conditions and the following disclaimer in
 REM     the documentation and/or other materials provided with the
@@ -42,4 +42,4 @@ GOTO RUN
 :USE_PEAR_PATH
 set PHPBIN=%PHP_PEAR_PHP_BIN%
 :RUN
-"%PHPBIN%" "@bin_dir@\phpmd" %*
+"%PHPBIN%" "%~dp0\phpmd" %*
