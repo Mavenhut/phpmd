@@ -118,7 +118,12 @@ It is considered best practice to use the camelCase notation to name parameters.
             ]]>
         </description>
         <priority>1</priority>
-        <properties />
+		<properties>
+			<property
+					name="allow-underscore"
+					description="Allow an optional, single underscore at the beginning."
+					value="false" />
+		</properties>
         <example>
             <![CDATA[
 class ClassName {
@@ -140,7 +145,12 @@ It is considered best practice to use the camelCase notation to name variables.
             ]]>
         </description>
         <priority>1</priority>
-        <properties />
+		<properties>
+			<property
+					name="allow-underscore"
+					description="Allow an optional, single underscore at the beginning."
+					value="false" />
+		</properties>
         <example>
             <![CDATA[
 class ClassName {
